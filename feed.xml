@@ -4,7 +4,7 @@
   <id>https://martynmartyn.github.io/notnotant.github.io/</id>
   <title>Martyn Leeper Portfolio</title>
   <subtitle>Martyn is a generalist game programmer with over 8 years of experience in programming and a passion for audio.</subtitle>
-  <updated>2025-11-20T03:50:49+00:00</updated>
+  <updated>2025-11-20T03:53:52+00:00</updated>
   <author>
     <name>Martyn Leeper</name>
     <uri>https://martynmartyn.github.io/notnotant.github.io/</uri>
@@ -14,8 +14,8 @@
     href="https://martynmartyn.github.io/notnotant.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Martyn Leeper </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/notnotant.github.io/assets/img/favicons/favicon.ico</icon>
+  <logo>/notnotant.github.io/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
