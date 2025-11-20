@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://martynleeper.com/notnotant.github.io/</id>
+  <id>https://martynleeper.com/</id>
   <title>Martyn Leeper Portfolio</title>
   <subtitle>Martyn is a generalist game programmer with over 8 years of experience in programming and a passion for audio.</subtitle>
-  <updated>2025-11-20T04:21:25+00:00</updated>
+  <updated>2025-11-20T04:24:02+00:00</updated>
   <author>
     <name>Martyn Leeper</name>
-    <uri>https://martynleeper.com/notnotant.github.io/</uri>
+    <uri>https://martynleeper.com/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://martynleeper.com/notnotant.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://martynleeper.com/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://martynleeper.com/notnotant.github.io/"/>
+    href="https://martynleeper.com/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Martyn Leeper </rights>
-  <icon>/notnotant.github.io/assets/img/favicons/favicon.ico</icon>
-  <logo>/notnotant.github.io/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Splash Damage</title>
-    <link href="https://martynleeper.com/notnotant.github.io/posts/SplashDamage/" rel="alternate" type="text/html" title="Splash Damage" />
+    <link href="https://martynleeper.com/posts/SplashDamage/" rel="alternate" type="text/html" title="Splash Damage" />
     <published>2023-01-24T00:00:00+00:00</published>
   
     <updated>2023-01-24T00:00:00+00:00</updated>
   
-    <id>https://martynleeper.com/notnotant.github.io/posts/SplashDamage/</id>
-    <content type="text/html" src="https://martynleeper.com/notnotant.github.io/posts/SplashDamage/" />
+    <id>https://martynleeper.com/posts/SplashDamage/</id>
+    <content type="text/html" src="https://martynleeper.com/posts/SplashDamage/" />
     <author>
       <name>Martyn Leeper</name>
     </author>
@@ -45,13 +45,13 @@
   
   <entry>
     <title>Multiplayer Wwise Rocket Lock on Mechanic</title>
-    <link href="https://martynleeper.com/notnotant.github.io/posts/RocketMechanic/" rel="alternate" type="text/html" title="Multiplayer Wwise Rocket Lock on Mechanic" />
+    <link href="https://martynleeper.com/posts/RocketMechanic/" rel="alternate" type="text/html" title="Multiplayer Wwise Rocket Lock on Mechanic" />
     <published>2022-11-27T00:00:00+00:00</published>
   
     <updated>2022-11-27T00:00:00+00:00</updated>
   
-    <id>https://martynleeper.com/notnotant.github.io/posts/RocketMechanic/</id>
-    <content type="text/html" src="https://martynleeper.com/notnotant.github.io/posts/RocketMechanic/" />
+    <id>https://martynleeper.com/posts/RocketMechanic/</id>
+    <content type="text/html" src="https://martynleeper.com/posts/RocketMechanic/" />
     <author>
       <name>Martyn Leeper</name>
     </author>
@@ -71,13 +71,13 @@
   
   <entry>
     <title>Work in progress Scifi Music Pack (Ever Studio)</title>
-    <link href="https://martynleeper.com/notnotant.github.io/posts/WIPScifiMusicPack/" rel="alternate" type="text/html" title="Work in progress Scifi Music Pack (Ever Studio)" />
+    <link href="https://martynleeper.com/posts/WIPScifiMusicPack/" rel="alternate" type="text/html" title="Work in progress Scifi Music Pack (Ever Studio)" />
     <published>2022-10-27T00:00:00+00:00</published>
   
     <updated>2022-10-27T00:00:00+00:00</updated>
   
-    <id>https://martynleeper.com/notnotant.github.io/posts/WIPScifiMusicPack/</id>
-    <content type="text/html" src="https://martynleeper.com/notnotant.github.io/posts/WIPScifiMusicPack/" />
+    <id>https://martynleeper.com/posts/WIPScifiMusicPack/</id>
+    <content type="text/html" src="https://martynleeper.com/posts/WIPScifiMusicPack/" />
     <author>
       <name>Martyn Leeper</name>
     </author>
@@ -97,13 +97,13 @@
   
   <entry>
     <title>Class 314 Contract [Dovetail Games]</title>
-    <link href="https://martynleeper.com/notnotant.github.io/posts/TrainSimWorldContract2/" rel="alternate" type="text/html" title="Class 314 Contract [Dovetail Games]" />
+    <link href="https://martynleeper.com/posts/TrainSimWorldContract2/" rel="alternate" type="text/html" title="Class 314 Contract [Dovetail Games]" />
     <published>2021-03-15T00:00:00+00:00</published>
   
     <updated>2021-03-15T00:00:00+00:00</updated>
   
-    <id>https://martynleeper.com/notnotant.github.io/posts/TrainSimWorldContract2/</id>
-    <content type="text/html" src="https://martynleeper.com/notnotant.github.io/posts/TrainSimWorldContract2/" />
+    <id>https://martynleeper.com/posts/TrainSimWorldContract2/</id>
+    <content type="text/html" src="https://martynleeper.com/posts/TrainSimWorldContract2/" />
     <author>
       <name>Martyn Leeper</name>
     </author>
@@ -121,13 +121,13 @@
   
   <entry>
     <title>Skyhook Games Contract</title>
-    <link href="https://martynleeper.com/notnotant.github.io/posts/SkyhookGamesContract/" rel="alternate" type="text/html" title="Skyhook Games Contract" />
+    <link href="https://martynleeper.com/posts/SkyhookGamesContract/" rel="alternate" type="text/html" title="Skyhook Games Contract" />
     <published>2021-02-01T00:00:00+00:00</published>
   
     <updated>2021-02-01T00:00:00+00:00</updated>
   
-    <id>https://martynleeper.com/notnotant.github.io/posts/SkyhookGamesContract/</id>
-    <content type="text/html" src="https://martynleeper.com/notnotant.github.io/posts/SkyhookGamesContract/" />
+    <id>https://martynleeper.com/posts/SkyhookGamesContract/</id>
+    <content type="text/html" src="https://martynleeper.com/posts/SkyhookGamesContract/" />
     <author>
       <name>Martyn Leeper</name>
     </author>

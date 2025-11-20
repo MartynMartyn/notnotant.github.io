@@ -1,18 +1,18 @@
 const swconf = {
   
-    cacheName: 'chirpy-1763612487',resources: [
-      '/notnotant.github.io/assets/css/jekyll-theme-chirpy.css',
-      '/notnotant.github.io/',
+    cacheName: 'chirpy-1763612644',resources: [
+      '/assets/css/jekyll-theme-chirpy.css',
+      '/',
       
-        '/notnotant.github.io/projects/',
+        '/projects/',
       
-        '/notnotant.github.io/categories/Work',
+        '/categories/Work',
       
-        '/notnotant.github.io/tags/',
+        '/tags/',
       
-        '/notnotant.github.io/archives/',
+        '/archives/',
       
-        '/notnotant.github.io/about/',
+        '/about/',
       
 
       
