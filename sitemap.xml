@@ -1,25 +1,143 @@
----
-layout: null
----
-{%-if site.plainwhite.sitemap -%}
-    <?xml version="1.0" encoding="UTF-8"?>
-    <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-        <url>
-            <loc>{{ site.url }}</loc>
-            <lastmod>2019-06-07T00:00:00+00:00</lastmod>
-            <priority>1.00</priority>
-        </url>
-        {%- for post in site.posts -%}
-            <url>
-                <loc>{{ site.url }}{{ post.url }}</loc>
-                <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url>
-        {%- endfor -%}
-    </urlset>    
-{%- endif -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/posts/TrainSimWorld/</loc>
+<lastmod>2017-01-30T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/EverStudio-Services/</loc>
+<lastmod>2019-08-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/EverStudio-AssetPacks/</loc>
+<lastmod>2020-01-07T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/TrainSimWorldContract1/</loc>
+<lastmod>2020-07-06T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/SkyhookGamesContract/</loc>
+<lastmod>2021-02-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/TrainSimWorldContract2/</loc>
+<lastmod>2021-03-15T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/WIPScifiMusicPack/</loc>
+<lastmod>2022-10-27T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/RocketMechanic/</loc>
+<lastmod>2022-11-27T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/posts/SplashDamage/</loc>
+<lastmod>2023-01-24T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/projects/</loc>
+<lastmod>2025-11-20T03:28:11+00:00</lastmod>
+</url>
+<url>
+<loc>/categories/Work</loc>
+<lastmod>2025-11-20T03:28:11+00:00</lastmod>
+</url>
+<url>
+<loc>/tags/</loc>
+<lastmod>2025-11-20T03:28:11+00:00</lastmod>
+</url>
+<url>
+<loc>/archives/</loc>
+<lastmod>2025-11-20T03:28:11+00:00</lastmod>
+</url>
+<url>
+<loc>/about/</loc>
+<lastmod>2025-11-20T03:28:11+00:00</lastmod>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/tags/work/</loc>
+</url>
+<url>
+<loc>/tags/ue4/</loc>
+</url>
+<url>
+<loc>/tags/blueprints/</loc>
+</url>
+<url>
+<loc>/tags/technical-games-design/</loc>
+</url>
+<url>
+<loc>/tags/c/</loc>
+</url>
+<url>
+<loc>/tags/client/</loc>
+</url>
+<url>
+<loc>/tags/self-employment/</loc>
+</url>
+<url>
+<loc>/tags/asset-packs/</loc>
+</url>
+<url>
+<loc>/tags/cubase/</loc>
+</url>
+<url>
+<loc>/tags/documentation/</loc>
+</url>
+<url>
+<loc>/tags/collaboration/</loc>
+</url>
+<url>
+<loc>/tags/training/</loc>
+</url>
+<url>
+<loc>/tags/onboarding/</loc>
+</url>
+<url>
+<loc>/tags/projects/</loc>
+</url>
+<url>
+<loc>/tags/music/</loc>
+</url>
+<url>
+<loc>/tags/cubase-pro/</loc>
+</url>
+<url>
+<loc>/tags/scifi/</loc>
+</url>
+<url>
+<loc>/tags/music-pack/</loc>
+</url>
+<url>
+<loc>/tags/ue5/</loc>
+</url>
+<url>
+<loc>/tags/epic-games-marketplace/</loc>
+</url>
+<url>
+<loc>/tags/wwise/</loc>
+</url>
+<url>
+<loc>/tags/game-audio-programming/</loc>
+</url>
+<url>
+<loc>/tags/metasounds/</loc>
+</url>
+<url>
+<loc>/categories/work/</loc>
+</url>
+<url>
+<loc>/categories/projects/</loc>
+</url>
+<url>
+<loc>/categories/music/</loc>
+</url>
+<url>
+<loc>/categories/prototypes/</loc>
+</url>
+</urlset>

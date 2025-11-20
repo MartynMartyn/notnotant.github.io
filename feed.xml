@@ -1,0 +1,147 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Martyn Leeper Portfolio</title>
+  <subtitle>Martyn is a generalist game programmer with over 8 years of experience in programming and a passion for audio.</subtitle>
+  <updated>2025-11-20T03:28:11+00:00</updated>
+  <author>
+    <name>Martyn Leeper</name>
+    <uri>/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Martyn Leeper </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Splash Damage</title>
+    <link href="/posts/SplashDamage/" rel="alternate" type="text/html" title="Splash Damage" />
+    <published>2023-01-24T00:00:00+00:00</published>
+  
+    <updated>2023-01-24T00:00:00+00:00</updated>
+  
+    <id>/posts/SplashDamage/</id>
+    <content type="text/html" src="/posts/SplashDamage/" />
+    <author>
+      <name>Martyn Leeper</name>
+    </author>
+
+  
+    
+    <category term="Work" />
+    
+  
+
+  <summary>Duration: 2 years  Transformers Reactivated A third person multi-platform multiplayer game using Wwise. Enhanced gameplay through dynamic audio systems:    Improved Wwise submission workflow for audio designers working alongside the build team to automate Wwise cooks for the rest of the team. Previously audio designers were getting blocked and dealing with binary file conflicts when attempting ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Multiplayer Wwise Rocket Lock on Mechanic</title>
+    <link href="/posts/RocketMechanic/" rel="alternate" type="text/html" title="Multiplayer Wwise Rocket Lock on Mechanic" />
+    <published>2022-11-27T00:00:00+00:00</published>
+  
+    <updated>2022-11-27T00:00:00+00:00</updated>
+  
+    <id>/posts/RocketMechanic/</id>
+    <content type="text/html" src="/posts/RocketMechanic/" />
+    <author>
+      <name>Martyn Leeper</name>
+    </author>
+
+  
+    
+    <category term="projects" />
+    
+    <category term="prototypes" />
+    
+  
+
+  <summary>This prototype displays a multiplayer missile-lock sound effect triggering when a player has been targeted by a heat seeking rocket from an enemy weapon. It was rapidly prototyped in Unreal Engine 4 utilising blueprints for quick iteration and Wwise as the primary audio engine. Character actions are sent to the server/host and passed onto all clients. When one or more rockets target a player, t...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Work in progress Scifi Music Pack (Ever Studio)</title>
+    <link href="/posts/WIPScifiMusicPack/" rel="alternate" type="text/html" title="Work in progress Scifi Music Pack (Ever Studio)" />
+    <published>2022-10-27T00:00:00+00:00</published>
+  
+    <updated>2022-10-27T00:00:00+00:00</updated>
+  
+    <id>/posts/WIPScifiMusicPack/</id>
+    <content type="text/html" src="/posts/WIPScifiMusicPack/" />
+    <author>
+      <name>Martyn Leeper</name>
+    </author>
+
+  
+    
+    <category term="projects" />
+    
+    <category term="music" />
+    
+  
+
+  <summary>Samples of some tracks so far  Martyn Leeper · ScifiPackMixProgress1_27102022  Development Inspired by incredible composers such as Michael Mccann who wrote a large portion of songs for Deus Ex Human Revolution and Deus Ex Mankind Divided, I wanted to experiment in creating SciFi themes which contain variants for ambience, stress and combat based game settings. The aim is to ship the pack with ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Class 314 Contract [Dovetail Games]</title>
+    <link href="/posts/TrainSimWorldContract2/" rel="alternate" type="text/html" title="Class 314 Contract [Dovetail Games]" />
+    <published>2021-03-15T00:00:00+00:00</published>
+  
+    <updated>2021-03-15T00:00:00+00:00</updated>
+  
+    <id>/posts/TrainSimWorldContract2/</id>
+    <content type="text/html" src="/posts/TrainSimWorldContract2/" />
+    <author>
+      <name>Martyn Leeper</name>
+    </author>
+
+  
+    
+    <category term="Work" />
+    
+  
+
+  <summary>I gathered and documented data about the Class 314 giving the art team the information they needed for skinning, dynamic numbering, lighting and weather effects, as well as being a useful resource for any future designer who might need reference data.  I performed an initial pass on the simulation functionality using several temporary debug components to get a sense of how the vehicle was behav...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Skyhook Games Contract</title>
+    <link href="/posts/SkyhookGamesContract/" rel="alternate" type="text/html" title="Skyhook Games Contract" />
+    <published>2021-02-01T00:00:00+00:00</published>
+  
+    <updated>2021-02-01T00:00:00+00:00</updated>
+  
+    <id>/posts/SkyhookGamesContract/</id>
+    <content type="text/html" src="/posts/SkyhookGamesContract/" />
+    <author>
+      <name>Martyn Leeper</name>
+    </author>
+
+  
+    
+    <category term="Work" />
+    
+  
+
+  <summary>Duration: 1 year, 3 months  Working with Skyhook Games was a delightful experience. The company was looking to expand into creating their own DLC for Train Sim World and were after someone to help them on the technical setup aspect of development. My initial contract was to setup two vehicles in preparation for Skyhooks first DLC packs but later expanded as I took on some extra responsibilities...</summary>
+
+  </entry>
+
+</feed>
+
+

@@ -1,0 +1,85 @@
+[
+  
+  {
+    "title": "Splash Damage",
+    "url": "/posts/SplashDamage/",
+    "categories": "Work",
+    "tags": "work, game audio programming, wwise, Metasounds, C++, ue5, documentation, collaboration",
+    "date": "2023-01-24 00:00:00 +0000",
+    "content": "Duration: 2 years  Transformers Reactivated A third person multi-platform multiplayer game using Wwise. Enhanced gameplay through dynamic audio systems:    Improved Wwise submission workflow for audio designers working alongside the build team to automate Wwise cooks for the rest of the team. Previously audio designers were getting blocked and dealing with binary file conflicts when attempting to check files out.   Enhanced the music system to dynamically adapt based on world states, enabling responsive transitions between themes, layers, and triggers.   Implemented Wwise External Source plugin for our dynamic dialogue system to improve iteration times for the narrative team, as well as adding support for the cinematic team and improving overall usability.   Created a networked AI Bark system from the ground up.   Added numerous audio hooks for gameplay whilst also fixing bugs and continuously profiling to see where performance improvements could be made.   Collaborated with Audio Designers regularly to assist in implementing desired features.   Carried out multiple Wwise upgrades during project lifetime, including a migration from UE4 to UE5. Resolved issues within the Wwise Niagara audio module and made some optimisations (e.g. caching data which was regularly polled and adapting functions that passed large amounts of data by value).   Update audio debug tooling to batch request data through WAPPI fixing an issue with high frame costs making the tool previously unusable.   Constant profiling and playtesting.   Project Astrid: A first person multi-platform multiplayer survival game using Unreal’s native audio system:    Research and developed a dynamic, priority-based mixing system leveraging Unreal’s control bus mix system.   Conducted profiling with Unreal Insights and implemented performance optimisations. Implemented audio hooks for gameplay and performed regular bug fixing.   Created a data driven system to group and replace multiple sound sources in an area, to a single source which represented them all (e.g. multiple small fire instances in close proximity being replaced with a single large fire sound effect)."
+  },
+  
+  {
+    "title": "Multiplayer Wwise Rocket Lock on Mechanic",
+    "url": "/posts/RocketMechanic/",
+    "categories": "projects, prototypes",
+    "tags": "projects, ue4, blueprints, wwise",
+    "date": "2022-11-27 00:00:00 +0000",
+    "content": "This prototype displays a multiplayer missile-lock sound effect triggering when a player has been targeted by a heat seeking rocket from an enemy weapon. It was rapidly prototyped in Unreal Engine 4 utilising blueprints for quick iteration and Wwise as the primary audio engine. Character actions are sent to the server/host and passed onto all clients. When one or more rockets target a player, that targeted player receives an event which triggers the warning beep sfx. An RTPC is updated based on the closest rocket which affects the rate of play depending on how close it is to the player. This gives the player urgency that they need to move to avoid the threat. In the video, you’ll see a sound image icon on the client’s window which has the active sound perspective playing."
+  },
+  
+  {
+    "title": "Work in progress Scifi Music Pack (Ever Studio)",
+    "url": "/posts/WIPScifiMusicPack/",
+    "categories": "projects, music",
+    "tags": "projects, music, cubase pro, scifi, music pack, ue4, ue5, epic games marketplace",
+    "date": "2022-10-27 00:00:00 +0000",
+    "content": "Samples of some tracks so far  Martyn Leeper · ScifiPackMixProgress1_27102022  Development Inspired by incredible composers such as Michael Mccann who wrote a large portion of songs for Deus Ex Human Revolution and Deus Ex Mankind Divided, I wanted to experiment in creating SciFi themes which contain variants for ambience, stress and combat based game settings. The aim is to ship the pack with 10 themes total and I was originally aiming to try and make track lengths around 10 minutes but that may change. Having these different emotional flavours gives the option to switch between them depending on what’s happening in the developer’s game."
+  },
+  
+  {
+    "title": "Class 314 Contract [Dovetail Games]",
+    "url": "/posts/TrainSimWorldContract2/",
+    "categories": "Work",
+    "tags": "work, blueprints, technical games design, documentation, collaboration",
+    "date": "2021-03-15 00:00:00 +0000",
+    "content": "I gathered and documented data about the Class 314 giving the art team the information they needed for skinning, dynamic numbering, lighting and weather effects, as well as being a useful resource for any future designer who might need reference data.  I performed an initial pass on the simulation functionality using several temporary debug components to get a sense of how the vehicle was behaving. As the art became available, I was able to a sanity pass to ensure everything was present in the art and worked as expected and then went through the process of hooking everything up such as controls, lights, screens, passenger system components, cameras, transitions."
+  },
+  
+  {
+    "title": "Skyhook Games Contract",
+    "url": "/posts/SkyhookGamesContract/",
+    "categories": "Work",
+    "tags": "work, blueprints, technical games design, documentation, collaboration, training, onboarding",
+    "date": "2021-02-01 00:00:00 +0000",
+    "content": "Duration: 1 year, 3 months  Working with Skyhook Games was a delightful experience. The company was looking to expand into creating their own DLC for Train Sim World and were after someone to help them on the technical setup aspect of development. My initial contract was to setup two vehicles in preparation for Skyhooks first DLC packs but later expanded as I took on some extra responsibilities in helping the team grow.  Skyhook has done a lot of work for Dovetail Games producing artwork for several vehicles on TS1 and TSW. I was able to assist the art team by giving some insight into technicalities of how several systems worked, enabling them to expand the type of art setup they could do for future vehicles. This included things like how to approach sectioning the vehicle into sub-meshes, what parts of the mesh need to be skinned, how to approach UVs for dynamic numbering, weather effects and lighting systems. I spent some time with the team discussing a good documentation workflow to enable efficient throughput for both designers and artists.  Later, I helped by providing insight and support into hiring candidates for technical designer roles which included reviewing candidate submissions, providing technical questions for an interview test and some onboarding and training with the new team members."
+  },
+  
+  {
+    "title": "BR 363, DB BR 403 and BR Class 375 Contract [Dovetail Games]",
+    "url": "/posts/TrainSimWorldContract1/",
+    "categories": "Work",
+    "tags": "work, blueprints, technical games design, documentation, collaboration",
+    "date": "2020-07-06 00:00:00 +0000",
+    "content": "My first contract with Dovetail Games was to deliver three vehicles in a one two split milestone.             The first milestone was to get an initial grey-box phase complete for the BR 363 which had art and audio in active development. The role began familiarly with a research and document phase where I collected as much information as possible about the shunter. This was followed on by boilerplate setup where I created Rail Vehicle Model/View actors, populated them with all the necessary components and created the blueprint logic to get those components working together. By the end there can be 100s of components controlling a variety of features, from simple things like doors and light controllers to systems that are responsible for traction, braking and safety systems. I created a basic Simugraph asset which was to be replaced out later internally at dovetail.                       The second milestone was focussed on getting a DB BR 403 ICE and its coaches setup as well as a BR Class 375 which used the BR Class 377-4 as reference point."
+  },
+  
+  {
+    "title": "Ever Studio - Asset Packs (Self Employment)",
+    "url": "/posts/EverStudio-AssetPacks/",
+    "categories": "Work",
+    "tags": "work, ue4, asset packs, Self Employment, Cubase",
+    "date": "2020-01-07 00:00:00 +0000",
+    "content": "Haunted Horror Music Pack  Somewhere around the time between my Skyhook and Dovetail contracts, I felt an internal drive to want to invest more time and resources into my passion of creating game music compositions, with the aim to sell them in asset packs for other developers. I had spent loads of time over the years writing songs for practice and fun, scoring them to games I was playing at the time. This was always done on a tight budget with a very limited selection of samples and VSTs.  The Haunted Horror Music pack was my first music-based release, where I aimed to make a range of sinister and melancholic themes that indie developers could use for their horror games. At the time I was pulling inspiration from sources such as Mike Flanagan’s The Haunting of Hill House and The Haunting of Bly Manor, as well as games such as Resident Evil 7. I ended up creating 10 themes in total, with some having extra variations to choose from, as well as some stingers that could be useful for things like new objective alerts. I’m happy to say that some of the ambient tracks from this pack were used in the indie game Choo Choo Charles.  I’ve started the video below at one of the tracks I enjoyed writing the most.            Kitchen Audio Pack  This was my very first experience of taking a project through from the initial idea/planning phase to recording/editing and shipping stage independently. My partner purchased a Zoom H6 as a present for me and I spent several days recording various kitchen related audio, experimenting with positioning and trying to dampen room reverb. It took a fair bit of time to edit through all the recordings and package them together, and it’s a project that could be improved and expanded upon. Although I feel that my recording/editing skills have grown substantially since working on this, it was a great journey to be able to spend time researching and growing my audio skills, while also having the achievable end goal of producing a product for indie developers to use in their games."
+  },
+  
+  {
+    "title": "Ever Studio - Services (Self Employment)",
+    "url": "/posts/EverStudio-Services/",
+    "categories": "Work",
+    "tags": "work, ue4, blueprints, C++, client, Self Employment",
+    "date": "2019-08-01 00:00:00 +0000",
+    "content": "Encode/Decode Data via PNG (Unreal Engine) A client had a brief where they wanted data to be serialized into the transparent pixels of an image they generated during gameplay. Since the transparent sections weren’t display to the user, this allowed for the RGB values to be filled sequentially with the user data. This allowed the image to be shared and for the data to be loaded in another instance of the game. I created a C++ plugin which provided some functions to encode/decode data to and from a PNG file. Because there are several potential failure points that could happen during these processes, I created enum states that are returned after the functions are called and gave the client a path to handle those states.   Here you can see the test data that was used during encoding and compared against when decoding:       Here are the enum return states:       This is a test image which has spread out transparency:       This is a debug visualisation of the resulting data being encoded into the transparent pixels:      Physx asset runtime changes A developer wanted the ability to adjust properties such as body collision enabled state, bone constraint rotation, body rotation and shape specific extents/radius within a physics asset. This was not possible to control via blueprint by default. Upon investigation I believe Epic may have made that decision as changes to those values require the physics bodies to be recreated which has the potential to cause unusual behaviour (e.g. physics bodies flying around). The client only wanted the changes to happen once on the creation of the mesh at runtime, and they also wanted the ability for the changes to be instanced between different meshes. I created a C++ UPlugin containing blueprint nodes that allowed for transient duplicates of the original physics asset to be made and for the properties previously mentioned to be exposed.  Physics body rotation:            Physics body collision toggle:            Physics constraint rotation:"
+  },
+  
+  {
+    "title": "Train Sim World [Dovetail Games]",
+    "url": "/posts/TrainSimWorld/",
+    "categories": "Work",
+    "tags": "work, ue4, blueprints, technical games design, C++",
+    "date": "2017-01-30 00:00:00 +0000",
+    "content": "The Role  Train Sim World is a First-Person Train Simulator game, that brings to life the experience of operating powerful and realistic trains on some of the World’s most amazing railways, utilising the power of Unreal Engine 4. I joined the team before the initial release of TSW, back in January of 2017, where I contributed to the project as a Technical Games Designer, focusing on locomotives, wagons, passenger coaches and gameplay mechanics. TSW is a single-player experience shipped on Steam, Windows Store, PS4 and Xbox one.  Tasks involved:    Researching and documenting vehicle specification data, as well as notating images and describing elements of the vehicle so artists could do a single pass on skinning and UVing the model in a specific way for dynamic numbering, lighting and weather effects.   Developing robust, flexible and reusable components used primarily in the Rail Vehicle Model and View actors for all aspects from simulation to player interaction.   Using UE4’s profiling tool to find any inefficiencies which could be optimised. As you can imagine with calculating accurate simulations, there’s not a lot of frame budget bandwidth.   Scoping out and working with management to plan scheduling for future DLC.   Creating and managing ticketing for tasks, bugs and queries using Jira.   Maintaining internal living documentation used to store standards for Rail Vehicle properties, components and optimisations, as well as important information that is discovered during development.   Performing reviews for check-ins.   Being a malleable and active problem solver.   Helping with onboarding new team members.   Part of the role I really enjoyed was having an opportunity to delve into more and more Unreal Engine features. For example, in the early days the art team would manually make animation sequences for everything that required movement, including levers, buttons, window visors, doors, panels, gangway elements, chains, wheelsets, seats and probably more. This process took too much time and so we became familiar with the animation system and were able to support the art team by manually animating things like levers, buttons, visors, doors, panels and seats in most cases.  The UMG widget system was another feature I got familiar with as more advanced vehicles (typically passenger coaches) had onboard computers controlled via screens. Sometimes I would manually recreate the UI elements from any media we had gathered using GIMP which is something I picked up on the fly. After recreating the screen layouts as accurately as possible, I would then need to figure out and replicate the onboard system functionality.  I enjoyed taking detailed descriptions of how devices worked such as safety systems (e.g. DSD) and building the logic for that in code. It was always lovely to see real life locomotive engineer’s comment when we got something feeling right and were always useful in guiding us when something wasn’t quite correct."
+  }
+  
+]
+
